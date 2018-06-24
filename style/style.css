@@ -1,5 +1,28 @@
-.question {
-  padding:5px;
-  background-color: aqua;
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray
+}
+
+.container {
+width:80%;
+padding:5%;
+margin:auto;
+background-color: white;
+}
+
+.container h1 {
+  text-align:center
+}
+
+
+.question, button {
+  border-radius:7px;
+  border: red solid 2px;
+  padding:10px;
+  background-color: lightgray;
   margin:10px;
+}
+
+button:hover {
+  font-weight: bold;
 }

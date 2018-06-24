@@ -18,6 +18,9 @@ Quiz Page\
   Questions\
   Multiple choice selection\
   Use VanillaJS to select right answer\
+  -1 submit button bottom of quesitons
+
+
     -push to correct answer array\
     -if wrong, push to wronganswer array\
   Total Answers (add correct and incorrect)\
