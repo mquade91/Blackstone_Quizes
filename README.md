@@ -11,7 +11,7 @@ Home Page\
 'Welcome to gone in 60 sessions'\
 Dropdown with each quiz in toolbar\
 Videos page\
-take user to quiz\
+take user to quiz
 
 Quiz Page\
   Embed video to watch\
