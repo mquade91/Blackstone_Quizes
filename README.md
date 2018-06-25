@@ -2,9 +2,6 @@
 
 Blackstone Quizes is an internal training tool used to enhance employee knowledge about Blackstone's current retail inventory.
 
-# Check us out:
-
-## https://www.blackstoneshooting.com/
 
 # Check out my progress:
 
