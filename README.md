@@ -6,6 +6,10 @@ Blackstone Quizes is an internal training application used to teach employees ab
 
 ## https://www.blackstoneshooting.com/
 
+# Check out my progress:
+
+## file:///Users/matthewquade/Projects/Blackstone_Quizes/views/quiz1.html
+
 TO DO\
 Home Page\
 'Welcome to gone in 60 sessions'\
@@ -18,7 +22,7 @@ Quiz Page\
   Questions\
   Multiple choice selection\
   Use VanillaJS to select right answer\
-  -1 submit button bottom of quesitons
+  -1 submit button bottom of quesitons\
 
 
     -push to correct answer array\
