@@ -1,6 +1,6 @@
 # Blackstone_Quizes
 
-Blackstone Quizes is an internal training application used to teach employees about current store inventory.  This will allow employees to speak confidently about the products we sell!
+Blackstone Quizes is an internal training tool used to enhance employee knowledge about Blackstone's current retail inventory.
 
 # Check us out:
 
