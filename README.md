@@ -13,29 +13,16 @@ Blackstone Quizes is an internal training application used to teach employees ab
 TO DO\
 Home Page\
 'Welcome to gone in 60 sessions'\
-Dropdown with each quiz in toolbar\
-Videos page\
-take user to quiz
-
-Quiz Page\
-  Embed video to watch\
-  Questions\
-  Multiple choice selection\
-  Use VanillaJS to select right answer\
-  -1 submit button bottom of quesitons\
+Dropdown with each quiz in toolbar that
+takes user to selected quiz\
 
 
-    -push to correct answer array\
-    -if wrong, push to wronganswer array\
-  Total Answers (add correct and incorrect)\
-  Correct Answers\
-  Incorrect Answers\
-  Grade output(divide correct answers by total answers)\
-  Email grade to Manager/Supervisor\
-    Incentive to complete\
-
+## Post MVP enhancements:
+Grade output into HTML\
+Allow user to email score(send SS?) to Manager or Supervisor\
+Incentive to complete?(Mini Game)\
 Eventually expand to 'Employee Training Handbook'\
-  -Easy allows Blackstone to onboard new employees and ensure culture, values, and objectives.\
-  -Add User Login\
-    -Google Auth (current blackstone emails)\
+  Easily allows Blackstone to onboard new employees and ensure culture, values, and objectives.\
+  Add User Login\
+    -Google Auth (current Blackstone emails)\
   -Mobile Responsive\

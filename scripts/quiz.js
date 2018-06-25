@@ -1,18 +1,21 @@
-console.log("script connected")
-
 
 correct = 0;
 inCorrect = 0;
 answers = [];
 totalQuestions = 0;
 
-
-//function that on 'submit' maps over answers and if the value = correct +1 correct vice versa for inCorrect each +1 for totalQuestions
-
 function submitQuiz() {
-  console.log('button works')
   checkAnswer();
-  console.log(answers);
+
+  for (let i = 0; i < answers.length; i++) {
+    if (answers[i] == "correct") {
+      correct += 1;
+    } else {
+      inCorrect += 1;
+    }
+  }
+  var score = Math.floor((correct / answers.length) * 100);
+  alert("Answers Correct: " + correct + " Answers incorrect: " + inCorrect + " Score: " + score + "%")
 
 }
 
