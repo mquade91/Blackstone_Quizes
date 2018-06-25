@@ -5,35 +5,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- style page -->
   <link rel="stylesheet" type="text/css" media="screen" href="../style/style.css">
-  <title>Session 1 Quiz</title>
+  <!--  Icons for page-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <!-- script files -->
+  <script src="../scripts/quiz.js"></script>
+  <title>Mary</title>
 </head>
 
 <body>
+
   <div class="container" id="quiz">
-    <h1>Gone in 1 out of 60 sessions</h1>
+
+    <h1>
+      <i class="fas fa-angle-double-down"></i>
+      <span>GONE IN</span>
+      <br> 60
+      <br>
+      <span>SESSIONS</span>
+      <br> "MARY"
+    </h1>
+    <video width="400 " controls>
+      <source src="mov_bbb.mp4 " type="video/mp4 ">
+      <source src="mov_bbb.ogg " type="video/ogg "> Your browser does not support HTML5 video.
+    </video>
     <!-- Question 1 -->
     <div class="question">
-      <form>
+      <form id='q1'>
         <p>Here you are able to type any quesiton you come up with?</p>
-        <input type="radio" name="gender" value="male" checked> answer1
+        <input type="radio" name="question1" value="correct"> Answer1
         <br>
-        <input type="radio" name="gender" value="female"> answer2
+        <input type="radio" name="question1" value="inCorrect"> Answer2
         <br>
-        <input type="radio" name="gender" value="other"> answer3
-        <br>
-        <br>
+        <input type="radio" name="question1" value="inCorrect"> Answer3
       </form>
     </div>
     <!-- Question 2 -->
-    <div class="question">
+    <div class="question ">
       <form>
         <p>Here you are able to type any quesiton you come up with?</p>
-        <input type="radio" name="gender" value="male" checked> answer1
+        <input type="radio" name="question2 " value="inCorrect"> Answer1
         <br>
-        <input type="radio" name="gender" value="female"> answer2
+        <input type="radio" name="question2 " value="correct"> Answer2
         <br>
-        <input type="radio" name="gender" value="other"> answer3
+        <input type="radio" name="question2 " value="inCorrect"> Answer3
         <br>
       </form>
     </div>
@@ -42,11 +59,11 @@
     <div class="question">
       <form>
         <p>Here you are able to type any quesiton you come up with?</p>
-        <input type="radio" name="gender" value="male" checked> answer1
+        <input type="radio" name="question3" value="inCorrect"> Answer1
         <br>
-        <input type="radio" name="gender" value="female"> answer2
+        <input type="radio" name="question3" value="inCorrect"> Answer2
         <br>
-        <input type="radio" name="gender" value="other"> answer3
+        <input type="radio" name="question3" value="correct"> Answer3
         <br>
       </form>
     </div>
@@ -55,11 +72,11 @@
     <div class="question">
       <form>
         <p>Here you are able to type any quesiton you come up with?</p>
-        <input type="radio" name="gender" value="male" checked> answer1
+        <input type="radio" name="question4" value="inCorrectA"> Answer1
         <br>
-        <input type="radio" name="gender" value="female"> answer2
+        <input type="radio" name="question4" value="correct"> Answer2
         <br>
-        <input type="radio" name="gender" value="other"> answer3
+        <input type="radio" name="question4" value="inCorrect"> Answer3
         <br>
       </form>
     </div>
@@ -68,11 +85,11 @@
     <div class="question">
       <form>
         <p>Here you are able to type any quesiton you come up with?</p>
-        <input type="radio" name="gender" value="male" checked> answer1
+        <input type="radio" name="question5" value="inCorrectA"> Answer1
         <br>
-        <input type="radio" name="gender" value="female"> answer2
+        <input type="radio" name="question5" value="B"> Answer2
         <br>
-        <input type="radio" name="gender" value="other"> answer3
+        <input type="radio" name="question5" value="C"> Answer3
         <br>
       </form>
     </div>
@@ -80,16 +97,17 @@
     <div class="question">
       <form>
         <p>Here you are able to type any quesiton you come up with?</p>
-        <input type="radio" name="gender" value="male" checked> answer1
+        <input type="radio" name="question6" value="A"> Answer1
         <br>
-        <input type="radio" name="gender" value="female"> answer2
+        <input type="radio" name="question6" value="B"> Answer2
         <br>
-        <input type="radio" name="gender" value="other"> answer3
+        <input type="radio" name="question6" value="C"> Answer3
         <br>
       </form>
 
     </div>
-    <button type="submit">Submit Quiz</button>
+    <!-- calls checkQuiz -->
+    <input onclick="checkAnswers()" id="checkQuiz" type="submit"></input>
   </div>
 
 </body>

@@ -1,9 +1,12 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray
+  font-family: Impact, Arial, Helvetica, sans-serif;
+  font-style: italic;
+  background-color: lightgray;
+  height: 100%;
 }
 
 .container {
+
 width:80%;
 padding:5%;
 margin:auto;
@@ -11,16 +14,39 @@ background-color: white;
 }
 
 .container h1 {
-  text-align:center
+  text-align:center;
+  background-color: black;
+  color:white;
+
+}
+span {
+  color:red;
 }
 
+i {
+  color:red;
+}
+.big-icon {
+  font-size: 32px;
+}
+
+video{
+  text-align: center;
+	margin: auto;
+	display: block;
+  width: 500px;
+
+  border: solid grey 2px;
+}
 
 .question, button {
+  font-family:Arial;
   border-radius:7px;
   border: red solid 2px;
   padding:10px;
   background-color: lightgray;
   margin:10px;
+  height: 100%;
 }
 
 button:hover {
