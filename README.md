@@ -10,6 +10,8 @@ Blackstone Quizes is an internal training tool used to enhance employee knowledg
 
 ## https://mquade91.github.io/Blackstone_Quizes/views/quiz1.html
 
+!["Home Page"][quiz.png]
+
 TO DO\
 Home Page\
 'Welcome to gone in 60 sessions'\
