@@ -12,7 +12,7 @@ Blackstone Quizes is an internal training tool used to enhance employee knowledg
 
 ![Home Page](quiz.png)
 
-##TO DO
+## TO DO
 Build Home Page\
 'Welcome to gone in 60 sessions'\
 Dropdown with each quiz in toolbar that
