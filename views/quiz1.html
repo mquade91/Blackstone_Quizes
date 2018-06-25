@@ -18,18 +18,19 @@
 <body>
 
   <div class="container" id="quiz">
-
-    <h1>
-      <i class="fas fa-angle-double-down"></i>
-      <span>GONE IN</span>
-      <br> 60
-      <br>
-      <span>SESSIONS</span>
-      <br> "MARY"
-    </h1>
-    <video width="400 " controls>
-      <source src="mov_bbb.mp4 " type="video/mp4 ">
-      <source src="mov_bbb.ogg " type="video/ogg "> Your browser does not support HTML5 video.
+    <div class="header">
+      <img alt="BlackstoneChevron" src="../chevron.png" width="50px" height="50px">
+      <h1>
+        <span>GONE IN</span>
+        <br>60
+        <br>
+        <span>SESSIONS</span>
+        <br>"MARY"
+      </h1>
+    </div>
+    <video width="400" controls>
+      <source src="mov_bbb.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg"> Your browser does not support HTML5 video.
     </video>
     <!-- Question 1 -->
     <div class="question">
@@ -43,14 +44,14 @@
       </form>
     </div>
     <!-- Question 2 -->
-    <div class="question ">
+    <div class="question">
       <form>
         <p>Here you are able to type any quesiton you come up with?</p>
-        <input type="radio" name="question2 " value="inCorrect"> Answer1
+        <input type="radio" name="question2" value="inCorrect"> Answer1
         <br>
-        <input type="radio" name="question2 " value="correct"> Answer2
+        <input type="radio" name="question2" value="correct"> Answer2
         <br>
-        <input type="radio" name="question2 " value="inCorrect"> Answer3
+        <input type="radio" name="question2" value="inCorrect"> Answer3
         <br>
       </form>
     </div>
@@ -107,7 +108,7 @@
 
     </div>
     <!-- calls checkQuiz -->
-    <input onclick="checkAnswers()" id="checkQuiz" type="submit"></input>
+    <input onclick="checkAnswers()" id="checkQuiz" type="submit" id="submit"></input>
   </div>
 
 </body>

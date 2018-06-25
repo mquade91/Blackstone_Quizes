@@ -6,19 +6,40 @@ body{
 }
 
 .container {
-
 width:80%;
 padding:5%;
 margin:auto;
 background-color: white;
+
 }
 
-.container h1 {
-  text-align:center;
+.container .header  {
   background-color: black;
   color:white;
+  margin:5px;
+  border-radius:7px;
+
 
 }
+
+img {
+  float:left;
+  padding:10px;
+  width:140px;
+  height:140px;
+  margin-left: 10px;
+
+}
+
+h1{
+  text-align: center;
+  width:50%;
+  margin:auto;
+  color: white;
+
+}
+
+
 span {
   color:red;
 }
@@ -26,15 +47,14 @@ span {
 i {
   color:red;
 }
-.big-icon {
-  font-size: 32px;
-}
+
 
 video{
   text-align: center;
 	margin: auto;
 	display: block;
   width: 500px;
+  border-radius:7px;
 
   border: solid grey 2px;
 }
