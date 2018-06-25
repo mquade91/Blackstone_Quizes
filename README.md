@@ -8,7 +8,7 @@ Blackstone Quizes is an internal training application used to teach employees ab
 
 # Check out my progress:
 
-## file:///Users/matthewquade/Projects/Blackstone_Quizes/views/quiz1.html
+## https://mquade91.github.io/Blackstone_Quizes/views/quiz1.html
 
 TO DO\
 Home Page\
