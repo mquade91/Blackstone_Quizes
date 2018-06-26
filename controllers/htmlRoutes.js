@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = function (app) {
 
   //HOME Page route
-  app.get("/home", function (req, res) {
+  app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/views/homePage.html"));
   })
   //Quiz1 route
