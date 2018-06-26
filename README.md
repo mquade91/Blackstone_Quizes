@@ -7,10 +7,11 @@ Blackstone Quizes is an internal training tool used to enhance employee knowledg
 
 ## https://mquade91.github.io/Blackstone_Quizes/views/quiz1.html
 
-![Home Page](quiz.png)
+![Home Page](/public/quiz.png)
 
 ## TO DO
-Build Home Page\
+
+### Build Home Page
 'Welcome to gone in 60 sessions'\
 Dropdown with each quiz in toolbar that
 takes user to selected quiz\
@@ -18,10 +19,17 @@ takes user to selected quiz\
 
 ## Post MVP enhancements:
 Grade output into HTML\
+
+### Convert to Node App
+HTML is loading
+Need to bring over styling
 Allow user to email score(send SS?) to Manager or Supervisor\
+Add User Login\
+    -Google Auth (current employee emails)\
+
+### Business Integration
 Incentive to complete?(Mini Game)\
 Eventually expand to 'Employee Training Handbook'\
   Easily allows Blackstone to onboard new employees and ensure culture, values, and objectives.\
-  Add User Login\
-    -Google Auth (current Blackstone emails)\
+
   -Mobile Responsive\

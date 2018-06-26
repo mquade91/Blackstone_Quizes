@@ -1,0 +1,19 @@
+{
+  "name": "blackstone_quizes",
+  "version": "1.0.0",
+  "description": "Internal Training App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mquade91/Blackstone_Quizes.git"
+  },
+  "author": "ME",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mquade91/Blackstone_Quizes/issues"
+  },
+  "homepage": "https://github.com/mquade91/Blackstone_Quizes#readme"
+}
