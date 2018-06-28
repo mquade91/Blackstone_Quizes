@@ -5,8 +5,9 @@ answers = [];
 totalQuestions = 0;
 
 function submitQuiz() {
+  allQuestionsAnswered();
   checkAnswer();
-
+  console.log(answers)
   for (let i = 0; i < answers.length; i++) {
     if (answers[i] == "correct") {
       correct += 1;
@@ -18,10 +19,29 @@ function submitQuiz() {
   alert("Answers Correct: " + correct + " Answers incorrect: " + inCorrect + " Score: " + score + "%")
 
 }
+// Function to make sure all questions have been answered
+function allQuestionsAnswered() {
+  //this grabs all <input radio tags>
+  var radios = document.getElementsByTagName('input');
 
+  let questionsAnswered = 0;
+  //This for loop finds all checked buttons
+  for (var i = 0; i < radios.length; i++) {
+    if (radios[i].type === 'radio' && radios[i].checked) {
+      questionsAnswered++;
+    }
+  }
+  console.log(questionsAnswered);
+  if (questionsAnswered < 6) {
+    alert('Please answer all questions')
+  }
+}
+
+//collects the values of each answer
 function checkAnswer() {
-  let answer1 = document.querySelector('input[name="question1"]:checked').value;
-  answers.push(answer1);
+
+  let answer = document.querySelector('input[ name="question1"]:checked').value;
+  answers.push(answer);
 
   let answer2 = document.querySelector('input[name="question2"]:checked').value;
   answers.push(answer2);
