@@ -5,7 +5,7 @@ Blackstone Quizes is an internal training tool used to enhance employee knowledg
 
 # Check out my progress:
 
-## https://mquade91.github.io/Blackstone_Quizes/views/quiz1.html
+## https://mquade91.github.io/Blackstone_Quizes/public/views/quiz1.html
 
 ![Home Page](/public/quiz.png)
 
@@ -22,8 +22,7 @@ Grade output into HTML\
 
 ### Convert to Node App
 HTML is loading
-Need to bring over styling
-Allow user to email score(send SS?) to Manager or Supervisor\
+Allow user to email score to Manager or Supervisor\
 Add User Login\
     -Google Auth (current employee emails)\
 
