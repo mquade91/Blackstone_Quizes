@@ -6,6 +6,28 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
 var nodemailer = require('nodemailer');
+var email = require('./controllers/email.js');
+
+console.log(email);
+
+// var transporter = nodemailer.createTransport({
+//   service: 'gmail',
+//   auth: {
+//     email
+//   }
+// });
+
+// var mailOptions = {
+//   mailOptions
+// };
+
+// transporter.sendMail(mailOptions, function (error, info) {
+//   if (error) {
+//     console.log(error);
+//   } else {
+//     console.log('Email sent: ' + info.response);
+//   }
+// });
 
 // EXPRESS CONFIGURATION
 // This sets up the basic properties for our express server
