@@ -21,7 +21,6 @@ takes user to selected quiz\
 Grade output into HTML\
 
 ### Convert to Node App
-HTML is loading
 Allow user to email score to Manager or Supervisor\
 Add User Login\
     -Google Auth (current employee emails)\
@@ -32,3 +31,5 @@ Eventually expand to 'Employee Training Handbook'\
   Easily allows Blackstone to onboard new employees and ensure culture, values, and objectives.\
 
   -Mobile Responsive\
+  -React Native?\
+  -Xamarin?\
