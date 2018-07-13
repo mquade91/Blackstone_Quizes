@@ -114,8 +114,12 @@
     </div>
     <!-- calls checkQuiz -->
     <!-- <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"> -->
-    <input onclick="submitQuiz()" id="checkQuiz" type="submit"></input>
+    <input onclick="submitQuiz(); displayResults()" id="checkQuiz" type="submit"></input>
     <!-- </a> -->
+    <div id="quizScoreDisplay">
+
+      <!-- Quiz score goes here -->
+    </div>
   </div>
 
 </body>

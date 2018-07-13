@@ -1,8 +1,10 @@
 
-correct = 0;
-inCorrect = 0;
-answers = [];
-totalQuestions = 0;
+let correct = 0;
+let inCorrect = 0;
+let answers = [];
+let totalQuestions = 0;
+let score = 0;
+
 
 function submitQuiz() {
   allQuestionsAnswered();
@@ -15,13 +17,13 @@ function submitQuiz() {
       inCorrect += 1;
     }
   }
-  var score = Math.floor((correct / answers.length) * 100);
-  alert("Answers Correct: " + correct + " Answers incorrect: " + inCorrect + " Score: " + score + "%")
-
+  //score Logic
+  score = Math.floor((correct / answers.length) * 100);
 }
+
 // Function to make sure all questions have been answered
 function allQuestionsAnswered() {
-  //this grabs all <input radio tags>
+  //this grabs all <input radio tags> the "CHOICES from each question"
   var radios = document.getElementsByTagName('input');
 
   let questionsAnswered = 0;
@@ -58,5 +60,12 @@ function checkAnswer() {
   let answer6 = document.querySelector('input[name="question6"]:checked').value;
   answers.push(answer6);
 
+}
+
+//Should I just call this function in the submitQuiz or just onClick button in quiz html?
+
+function displayResults() {
+  console.log("display results button");
+  document.getElementById('quizScoreDisplay').innerHTML = "<p>Answers Correct: " + correct + " Answers incorrect: " + inCorrect + " Score: " + score + "%</p>";
 }
 
