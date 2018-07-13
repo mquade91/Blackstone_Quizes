@@ -18,18 +18,18 @@ takes user to selected quiz\
 
 
 ## Post MVP enhancements:
-Grade output into HTML\
+Grade output into HTML
 
 ### Convert to Node App
 Allow user to email score to Manager or Supervisor\
 Add User Login\
-    -Google Auth (current employee emails)\
+    -Google Auth (current employee emails)
 
 ### Business Integration
 Incentive to complete?(Mini Game)\
 Eventually expand to 'Employee Training Handbook'\
-  Easily allows Blackstone to onboard new employees and ensure culture, values, and objectives.\
+  Easily allows Blackstone to onboard new employees and ensure culture, values, and objectives.
 
   -Mobile Responsive\
   -React Native?\
-  -Xamarin?\
+  -Xamarin?
