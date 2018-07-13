@@ -66,6 +66,6 @@ function checkAnswer() {
 
 function displayResults() {
   console.log("display results button");
-  document.getElementById('quizScoreDisplay').innerHTML = "<p>Answers Correct: " + correct + " Answers incorrect: " + inCorrect + " Score: " + score + "%</p>";
+  document.getElementById('quizScoreDisplay').innerHTML = "Answers Correct: " + correct + " Answers incorrect: " + inCorrect + " Score: " + score + "%";
 }
 
