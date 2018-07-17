@@ -8,7 +8,7 @@ var path = require("path");
 var nodemailer = require('nodemailer');
 // var email = require('./controllers/email.js');
 
-console.log(email);
+//console.log(email);
 
 // var transporter = nodemailer.createTransport({
 //   service: 'gmail',
